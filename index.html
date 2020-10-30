@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>Jquery Plugin</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- fav icon -->
+  <link rel="icon" href="#" sizes="16x16 32x32" type="image/png">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" > -->
+  <!-- bootstrap download -->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- percentage -->
+  <link rel="stylesheet" href="css/progresscircle.css">
+  <!-- halloween -->
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <!-- zoom -->
+  <link rel="stylesheet" href="css/normalize.css?v=1.0">
+  <link rel="stylesheet" href="css/jquery.zoom.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <!-- analog watch -->
+<link rel="stylesheet" href="css/jsRapClock.css" />
+<!-- history tab -->
+<!-- intel put -->
+
+<link rel="stylesheet" href="css/intlTelInput.css">
+<link rel="stylesheet" href="css/demo.css">
+<!-- enhached -->
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <style type="text/css">
+   .containerl {
+       margin:150px auto;
+   }
+   .scramble{
+       font-family: 'Orbitron';
+   }
+   .wrapper { margin: 150px auto; }
+    .step {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbbbbb;
+        border: none;
+        border-radius: 50%;
+        display: inline-block;
+        opacity: 0.5;
+    }
+    .step.active {
+        opacity: 1;
+    }
+  </style>
+  <!-- font-awseome -->
+  <script src="https://kit.fontawesome.com/e245dc21e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="head p-">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand text-warning" href="index.html">Web Fighter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-success ">
+            <li class="nav-item active">
+              <a class="nav-link text-warning custom_a rounded" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning custom_a rounded" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Contact Us <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning custom_a rounded" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                About Us <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning custom_a rounded" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- slider start -->
+    <!-- slider section start -->
+    <section class="slider">
+      <div class="overlay">
+        <!-- pre and next start -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon preview" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon next" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!-- pre and next end -->
+        <div class="container">
+          <!-- slider start-->
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <!-- slider item 1 -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <!-- slider content -->
+                  <div class="col-lg-7 slider_content pl-lg-0">
+                    <h1 class="slider_h1">Jquery Plugin: 2</h1>
+                    <h2 class="slider_h2">Clean Responsive Parallax Theme</h2>
+                  </div>
+                  <!-- slider icons -->
+                  <div class="col-lg-5 slider_icons col-md-12">
+                    <img src="img/slider_icons.png" alt="icons" class="img-fluid">
+                    <img src="img/slider_icons.png" alt="icons" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <!-- slider item 2 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <!-- slider content -->
+                  <div class="col-lg-7 slider_content pl-lg-0">
+                    <h1 class="slider_h1">Jquery Plugin: 1</h1>
+                    <h2 class="slider_h2">Lorem ipsum dolor sit aet contur.</h2>
+                  </div>
+                  <!-- slider icons -->
+                  <div class="col-lg-5 slider_icons col-md-12">
+                    <img src="img/slider_icons.png" alt="icons" class="img-fluid">
+                    <img src="img/slider_icons.png" alt="icons" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <!-- slider item 3 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <!-- slider content -->
+                  <div class="col-lg-7 slider_content pl-lg-0">
+                    <h1 class="slider_h1">Jquery Plugin: 1</h1>
+                    <h2 class="slider_h2">Lorem ipsum dolor sit amt conr.</h2>
+                  </div>
+                  <!-- slider icons -->
+                  <div class="col-lg-5 slider_icons col-md-12">
+                    <img src="img/slider_icons.png" alt="icons" class="img-fluid">
+                    <img src="img/slider_icons.png" alt="icons" class="img-fluid ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slider end -->
+        </div>
+    </section>
+    <!-- slider section end -->
+  <!-- slider end -->
+
+    <!-- analog start -->
+    <section class="analog pt-5">
+      <div class="container">
+        <h2 class="service_header text-center text-white text-uppercase display-4">jquery plugin: 2</h2>
+        <div id="divMain">
+        <div id="divGitHub">
+        <div id="GitHub" onclick="location.href='https://github.com/Thibor/jsRapClock'"></div>
+        </div>
+        <div id="demo1"></div>
+        </div>
+      </div>
+    </section>
+    <!-- analog end -->
+
+
+    <!-- percentage start -->
+      <div class="container pt-5">
+        <h2 class="service_header text-center text-white text-uppercase display-4">jquery plugin: 3</h2>
+        <div id="demo">
+          <div class="circlechart " data-percentage="-20">jQuery</div>
+          <div class="circlechart" data-percentage="30">Script</div>
+          <div class="circlechart" data-percentage="85">.Net</div>
+          <div class="circlechart" data-percentage="-20">jQuery</div>
+        </div>
+      </div>
+    <!-- percentage end -->
+
+    <!-- halloween effect start -->
+      <section class="halloween ">
+        <div class="container">
+          
+    <h1 class="text-center text-warning pt-5 service_header text-uppercase display-4">jQuery Halloween: 4</h1>
+    <p class="text-center text-warning">A fancy jQuery plugin designed for Halloween that displays a swarm of bats (or any other images) flying around the webpage.</p>
+        </div>
+      </section>
+    <!-- halloween effect end -->
+
+    <!-- history tab start -->
+    <section class="history pt-5">
+      <div class="container text-center text-warning">
+        <h2 class="service_header text-center text-warning text-uppercase display-4">jquery plugin: 5</h2>
+        <p class="lead">Auto-update the hash of the URL when switching between Bootstrap tabs so that you can navigate back to the previous tab using the browser's back button.</p>
+        <hr />
+        <div role="tabpanel">
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills" role="tablist">
+                <li role="presentation" class="nav-item"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" class="nav-link active text-warning">Home</a></li>
+                <li role="presentation" class="nav-item"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="nav-link text-warning">Profile</a></li>
+                <li role="presentation" class="nav-item"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="nav-link text-warning">Messages</a></li>
+
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content mt-3" id="nav-tabContent">
+                <div role="tabpanel" class="tab-pane fade show active" id="home">Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. </div>
+                <div role="tabpanel" class="tab-pane fade" id="profile">Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. </div>
+                <div role="tabpanel" class="tab-pane" id="messages">Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- history tab end -->
+
+        <!-- portfolio start -->
+        <section class="portfolio">
+          <div class="container">
+            <h2 class="service_header text-center text-white text-uppercase display-4">jquery plugin: 6</h2>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="filters text-center">
+                  <li class="active" data-filter="*"><a href="#!">Web-Design</a></li>
+                  <li data-filter=".html"><a href="#!">UI Design</a></li>
+                  <li data-filter=".css"><a href="#!">prototype</a></li>
+                  <li data-filter=".javascript"><a href="#!">Photography</a></li>
+                </ul>
+                <div class="projects">
+                  <div class="row">
+                    <div class="col-lg-4 item html">
+                      <div class="card">
+                        <div class="card-head">
+                          <img src="img/pf1.png" alt="" class="img-fluid card-img">
+                          <div class="card-overlay">
+                            <h2>HTML</h2>
+                          </div>
+                          <!-- hover content -->
+                          <div class="card-hover">
+                            <h3>Clean night sky</h3>
+                            <p>Photography</p>
+                            <div class="like_comments">
+                              <a href="#"><i class="far fa-heart">53</i></a>
+                              <a href="#"><i class="far fa-comment-alt">180</i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 item css">
+                      <div class="card">
+          
+                        <div class="card-head">
+                          <img src="img/pf3.png" alt="" class="img-fluid card-img">
+                          <div class="card-overlay">
+                            <h2>CSS</h2>
+                          </div>
+                          <!-- hover content -->
+                          <div class="card-hover">
+                            <h3>Clean night sky</h3>
+                            <p>Photography</p>
+                            <div class="like_comments">
+                              <a href="#"><i class="far fa-heart">53</i></a>
+                              <a href="#"><i class="far fa-comment-alt">180</i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 item javascript">
+                      <div class="card">
+                        <div class="card-head">
+                          <img src="img/pf6.png" alt="" class="img-fluid card-img">
+                          <div class="card-overlay">
+                            <h2>Javascript</h2>
+                          </div>
+                          <!-- hover content -->
+                          <div class="card-hover">
+                            <h3>Clean night sky</h3>
+                            <p>Photography</p>
+                            <div class="like_comments">
+                              <a href="#"><i class="far fa-heart">53</i></a>
+                              <a href="#"><i class="far fa-comment-alt">180</i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 item html">
+                      <div class="card">
+                        <div class="card-head">
+                          <img src="img/pf4.png" alt="" class="img-fluid card-img">
+                          <div class="card-overlay">
+                            <h2>HTML</h2>
+                          </div>
+                          <!-- hover content -->
+                          <div class="card-hover">
+                            <h3>Clean night sky</h3>
+                            <p>Photography</p>
+                            <div class="like_comments">
+                              <a href="#"><i class="far fa-heart">53</i></a>
+                              <a href="#"><i class="far fa-comment-alt">180</i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 item css">
+          
+                      <div class="card">
+                        <div class="card-head">
+                          <img src="img/pf5.png" alt="" class="img-fluid card-img">
+                          <div class="card-overlay">
+                            <h2>CSS</h2>
+                          </div>
+                          <!-- hover content -->
+                          <div class="card-hover">
+                            <h3>Clean night sky</h3>
+                            <p>Photography</p>
+                            <div class="like_comments">
+                              <a href="#"><i class="far fa-heart">53</i></a>
+                              <a href="#"><i class="far fa-comment-alt">180</i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 item html">
+                      <div class="card">
+                        <div class="card-head">
+                          <img src="img/pf6.png" alt="" class="img-fluid card-img">
+                          <div class="card-overlay">
+                            <h2>HTML</h2>
+                          </div>
+                          <!-- hover content -->
+                          <div class="card-hover">
+                            <h3>Clean night sky</h3>
+                            <p>Photography</p>
+                            <div class="like_comments">
+                              <a href="#"><i class="far fa-heart">53</i></a>
+                              <a href="#"><i class="far fa-comment-alt">180</i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- portfolio end -->
+
+    <!-- enhached start -->
+    <section class="enhached">
+      <div class="container text-warning ">
+        <div id="main">
+          <h2 class="service_header text-center text-warning text-uppercase display-4">jquery plugin: 7</h2>
+          <h2>Follow Mouse</h2>
+          <h3 class="mt-5">1. Top Tooltip</h3>
+          <div id="test1" class="item">Hover Me!</div>
+          <h3>2. Right Tooltip</h3>
+          <div id="test2" class="item">Hover Me!</div>
+          <h3>3. Bottom Tooltip</h3>
+          <div id="test3" class="item">Hover Me!</div>
+          <h3>4. Left Tooltip</h3>
+          <div id="test4" class="item">Hover Me!</div>
+          <h3>5. Load Content From Any HTML</h3>
+          <div id="test5" class="item">Hover Me!</div>
+          <h3>6. Dismiss On Remove</h3>
+        </div>
+      </div>
+    </section>
+    <!-- enhached end -->
+
+    <!-- eye start -->
+    <div class="container">
+      <h2 class="service_header text-center text-warning text-uppercase display-4">jquery plugin: 8</h2>
+
+  <div id="circular" class="eyes">
+      <div class="left_eye">
+          <div class="pupil"></div>
+      </div>
+      <div class="right_eye">
+          <div class="pupil"></div>
+      </div>
+  </div>
+
+  <div id="ellipse" class="eyes">
+      <div class="left_eye">
+          <div class="pupil"></div>
+      </div>
+      <div class="right_eye">
+          <div class="pupil"></div>
+      </div>
+  </div>
+
+  <div id="rectangular" class="eyes">
+      <div class="left_eye">
+          <div class="pupil"></div>
+      </div>
+      <div class="right_eye">
+          <div class="pupil"></div>
+      </div>
+  </div>
+
+  <div id="rounded_rectangular" class="eyes">
+      <div class="left_eye">
+          <div class="pupil"></div>
+      </div>
+      <div class="right_eye">
+          <div class="pupil"></div>
+      </div>
+  </div>
+</div>
+    <!-- eye end -->
+
+    <!-- intel start -->
+    <section class="intel pt-5">
+      <div class="container text-center pt-5">
+        <h2 class="service_header text-center text-warning text-uppercase display-4">jquery plugin: 9</h2>
+        <form>
+          <input id="phone" name="phone" type="tel">
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- intel end -->
+
+    <!-- popup start -->
+    <section class="pop pt-5 text-center">
+      <div class="container text-center">
+      </div>
+      <h2 class="service_header text-center text-warning text-uppercase display-4">jquery plugin: 10</h2>
+      <button type="button" onclick="return Alt.alternative({title:'Basic',text:'Basic Alert Box'})"
+        class="btn btn-dark">Basic Alert</button>
+      <button type="button"
+        onclick="return Alt.alternative({status:'success',title:'Success',text:'Your Request is successfully fethced'})"
+        class="btn btn-success">Success Alert</button>
+      <button type="button"
+        onclick="return Alt.alternative({status:'warning',title:'Validation Errors!',text:'Username field is required!, Email field is required!'})"
+        class="btn btn-warning">Warning</button>
+      <button type="button"
+        onclick="return Alt.alternative({status:'error',title:'Server Errors!',text:'Your request failed on server'})"
+        class="btn btn-danger">Error Alert</button>
+      <button type="button" onclick="return Alt.alternative({status:'loading'})" class="btn btn-primary">Loading</button>
+      <button type="button"
+        onclick="return Alt.alternative({status:'question',showConfirmButton:true,showCancelButton: true,stop:true,title:'Are You Sure?',text:'Your data will be lost!'}).then((res) => {Alt.alternative({status:'loading'}); res ? setTimeout(() => {Alt.alternative({status:'success'})},2000)  : null})"
+        class="btn btn-info">Confirm Dialog</button>
+      </div>
+      </div>
+    </section>
+    <!-- popup end -->
+
+    <!-- zoom in -->
+    <section class="zoom">
+      <div class="container">
+        <h2 class="service_header text-center text-warning text-uppercase display-4 pt-5">jquery plugin: 11</h2>
+        <!-- Zoom area -->
+        <div class="map">
+          <div class="maps-container unselectable" style="overflow: auto;">
+      
+            <div class="map-control map-control-zoomin"></div>
+            <div class="map-control map-control-zoomout"></div>
+      
+            <!-- maps-container-inner -->
+            <div class="maps-container-inner zoomedElement zoomedElement414"
+              style="transform: scale(4.54782); left: -379.615px; top: 334.1px;">
+              <!-- maps-zoomed-container -->
+              <div class="maps-zoomed-container">
+      
+                <div class="map-image" id="map-all" style="display:block;">
+                  <img src="images/world.svg" alt="World map" />
+                </div>
+      
+                <div class="marker-all marker-group" id="group-marker-northamerica"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>North America</span>
+                </div>
+                <div class="marker-all marker-group" id="group-marker-southamerica"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>South America</span>
+                </div>
+                <div class="marker-all marker-group" id="group-marker-europe"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>Europe</span>
+                </div>
+                <div class="marker-all marker-group" id="group-marker-africa"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>Africa</span>
+                </div>
+                <div class="marker-all marker-group" id="group-marker-middleeast"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>Middle East</span>
+                </div>
+                <div class="marker-all marker-group" id="group-marker-india"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>India</span>
+                </div>
+                <div class="marker-all marker-group" id="group-marker-asia"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>Asia</span>
+                </div>
+                <div class="marker-all marker-group" id="group-marker-oceania"
+                  style="display: block; transform: scale(0.219886);">
+                  <a href="#"></a>
+                  <span>Oceania</span>
+                </div>
+                <div class="testpoint"></div>
+              </div>
+              <!-- //maps-zoomed-container -->
+            </div>
+            <!-- //maps-container-inner -->
+          </div>
+        </div>
+      
+        <!-- /Zomm area -->
+      </div>
+    </section>
+    <!-- zoom in end-->
+
+    <!-- boot popup -->
+    <section class="boot-pop">
+      <div class="container">
+        <h2 class="service_header text-center text-warning text-uppercase display-4 pt-5">jquery plugin: 12</h2>
+        <form action="#">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
+        </div>
+      </div>
+    </section>
+    <!-- boot popup -->
+
+    <!-- calc start -->
+    <div class="container">
+      <h2 class="service_header text-center text-warning text-uppercase display-4 pt-5">jquery plugin: 13</h2>
+    <div class="card" style="border: none;">
+        <div class="card-body" style="background:rgba(244, 242, 245, 0.836); border-radius: 0.5rem;";>
+            <form>
+                <div class="form-group">
+                    <div class="input-group mb-6 input-group-lg col-sm-3 my-1">
+                        <br>
+                        <input type="text" class="form-control" placeholder="Type the password" id="idPassword" style="border-radius: 0.5rem;" autofocus>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+  </div>
+  <div class="container" id="content-result">
+    <div class="card" id="idCard">
+        <div class="card-body">
+            <span style="display: inline;">
+                <h2>STRENGTH
+                    <button type="button" id="refresh"><i class="fas fa-dumbbell" style="color: rgb(59, 67, 138);"></i></button>
+                </h2>
+            </span>
+            <hr>
+            <div>
+                <div id="typepass">
+                    <h4>
+  
+                    </h4>
+                    <br>
+                    <div id="strengthResult">
+  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    <!-- calc end -->
+
+
+  <!-- bootstrap cdn start -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>-->
+  <!-- bootstrap cdn end -->
+
+  <!--bootstrap and downloaded js -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- isotop plugin -->
+  <script src="js/isotope.min.js"></script>
+  <!-- progress -->
+  <script src="js/progresscircle.js"></script>
+  <!-- hallween effect -->
+  <script src="js/halloween-bats.js"></script>
+  <!-- analog -->
+  <!-- histry -->
+  <script src="bootstrap-history-tabs.js"></script>
+  
+  <script src="js/jsRapClock.js"></script>
+  
+  <!-- eye -->
+  <script type="text/javascript" src="js/jqeye.min.js"></script>
+  
+  <script type="text/javascript" src="js/easyTooltip.min.js"></script>
+  <!-- enhached -->
+
+    <!-- filter -->
+    <script src="dist/jquery.easyFilter.js"></script>
+
+
+  <!-- intel -->
+
+  
+  <script src="js/intlTelInput.js"></script>
+  <!-- popup -->    
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.3/lottie.min.js"></script>
+  <script src="js/alt-alert.js"></script>
+
+  
+  <!-- zoom -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+  <script src="js/zoom.jquery.js"></script>
+  <script src="js/main.js"></script>
+  
+  <!-- zoom -->
+
+  <!-- boot pop -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+  <script src="js/BootConfirm.js"></script>
+  <!-- boot pop -->
+  
+    <!-- calc start -->
+    
+    <script src="js/main1.js"></script>
+    <!-- calc end -->
+
+    <!-- wizard start -->
+    
+    <script src="jq-wizard.js"></script>
+    <!-- wizard end -->
+
+  <!--custom js -->
+  <script src="js/script.js"></script>
+
+  <!-- progress -->
+  <script>
+		$('.circlechart').circlechart(); // Initialization
+	</script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  <!-- progress -->
+
+  <!-- intel -->
+  <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      // autoPlaceholder: "off",
+      // dropdownContainer: document.body,
+      // excludeCountries: ["us"],
+      // formatOnDisplay: false,
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // hiddenInput: "full_number",
+      // initialCountry: "auto",
+      // localizedCountries: { 'de': 'Deutschland' },
+      // nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      // placeholderNumberType: "MOBILE",
+      // preferredCountries: ['cn', 'jp'],
+      // separateDialCode: true,
+      utilsScript: "js/utils.js",
+    });
+  </script>
+
+</body>
+
+</html>

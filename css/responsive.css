@@ -1,0 +1,113 @@
+/* COL devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {           /* slider start */
+    .slider {
+        height: 235px!important;
+    }
+    .slider_content {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .slider_h1 {
+        font-size: 40px;
+    }
+    .slider_h2 {
+        font-size: 23px;
+        margin-top: 10px;
+    }
+    /* slider end */
+
+}
+
+/* SM (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /* slider start */
+        .slider{
+            height: 380px!important;
+        }
+        .slider_content {
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .slider_h1 {
+            font-size: 50px;
+        }
+        .slider_h2 {
+            font-size: 33px;
+        }
+        .preview{
+           margin-left: -20px;
+        }
+        .next{
+           margin-left: 20px;
+        }
+        .preview, .next {
+            margin-top: 280px;
+        }
+        /* slider end */
+
+}
+
+/* MD (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* slider start */
+    .slider{
+        height: 420px!important;
+    }
+    .slider_content {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .slider_icons {
+       margin-left: -65px!important;
+    }
+    .preview{
+       margin-left: -50px;
+    }
+    .next{
+       margin-left: 50px;
+    }
+    .preview, .next {
+        margin-top: 315px;
+    }
+    /* slider end */
+}
+
+/* LG (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* slider start */
+    .slider{
+        height: 480px!important;
+    }
+    .slider_content{
+        margin-top: 185px;
+    }
+    .slider_h1{
+        font-size: 50px;
+    }
+    .slider_h2{
+        font-size: 32px;
+    }
+    .slider_h1, .slider_h2{
+        margin-left: 50px;
+     }
+    .preview {
+        margin-left: -95px;
+    }
+    .next {
+        margin-left: 95px;
+    }
+    .slider_icons img{
+        width: 300px!important;
+        flex-direction: unset;
+    }
+    /* slider end */
+}
+
+/* XL (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* slider start */
+.slider_h1, .slider_h2{
+    margin-left: 35px;
+ }
